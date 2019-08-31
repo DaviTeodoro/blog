@@ -2,6 +2,8 @@
 title: Esse é um post do CMS
 excerpt: Esse é um excerpt
 date: 2019-08-31T19:47:28.882Z
+cover: /uploads/3drqewz_back2.jpg
+fullscreen: true
 ---
 Esse é o body. Aqui temos algumas questoes impertantes .
 
