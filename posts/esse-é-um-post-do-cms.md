@@ -5,6 +5,8 @@ date: 2019-08-31T19:47:28.882Z
 cover: /uploads/3drqewz_back2.jpg
 fullscreen: true
 ---
+![](/uploads/3drqewz_back2.jpg)
+
 Esse é o body. Aqui temos algumas questoes impertantes .
 
 Não temos todas as opçoes de edição aqui: 
@@ -14,4 +16,4 @@ Não temos todas as opçoes de edição aqui:
   * Capa com opção de imagem em fullscreen
   * novas paginas
 * Como eu acidiono imagens aqui?
-* Como eu adiciono novas páginas? 
+* Como eu adiciono novas páginas?
