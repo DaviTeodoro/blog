@@ -6,6 +6,8 @@ date: 2019-08-31T19:47:28.882Z
 cover: /images/3drqewz_back2.jpg
 tags:
   - vuejs
+  - nodejs
+  - design
 fullscreen: false
 galleryImages:
   - /images/3drqewz_back2.jpg
