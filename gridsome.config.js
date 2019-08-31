@@ -5,8 +5,8 @@ class TailwindExtractor {
 }
 
 module.exports = {
-  siteName: 'A blog starter for Gridsome',
-  siteDescription: "Bleda is a blog starter kit for Gridsome, the static site generator. It's inspired by Attila for Ghost, and styled with Tailwind CSS.",
+  siteName: 'My personal blog.',
+  siteDescription: "Just another personal blog.",
   siteUrl: 'https://gridsome-starter-bleda.netlify.com',
   titleTemplate: `%s | Bleda`,
   icon: 'src/favicon.png',
@@ -15,6 +15,7 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
       plugins: [
         ['gridsome-plugin-remark-shiki', {
           theme: 'min-light'
@@ -27,7 +28,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/posts/**/*.md',
+        path: 'posts/**/*.md',
         typeName: 'Post',
         route: '/:slug',
         refs: {
@@ -42,6 +43,12 @@ module.exports = {
             create: true
           }
         }
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
       }
     },
     // {
