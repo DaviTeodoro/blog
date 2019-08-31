@@ -1,13 +1,17 @@
 ---
 title: Esse é um post do CMS
 excerpt: Esse é um excerpt
+author: Davi Teodoro
 date: 2019-08-31T19:47:28.882Z
-cover: /uploads/bleda-card.png
+cover: /images/3drqewz_back2.jpg
+tags:
+  - vuejs
 fullscreen: true
+testimonials: []
 ---
-![](/uploads/3drqewz_back2.jpg)
-
 Esse é o body. Aqui temos algumas questoes impertantes .
+
+![](/images/3drqewz_back2.jpg)
 
 Não temos todas as opçoes de edição aqui: 
 
