@@ -6,8 +6,10 @@ date: 2019-08-31T19:47:28.882Z
 cover: /images/3drqewz_back2.jpg
 tags:
   - vuejs
-fullscreen: true
-testimonials: []
+fullscreen: false
+galleryImages:
+  - /images/3drqewz_back2.jpg
+  - /images/bleda-card.png
 ---
 Esse é o body. Aqui temos algumas questoes impertantes .
 
